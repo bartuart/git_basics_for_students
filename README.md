@@ -7,4 +7,5 @@ Approved baseline for starting of development ;)
 Changes by Peter:
 	Universities of Latvia: RTU, LU
 	Rivers of Latvia: Daugava, Gauja
+	Lakes of Latvia: Lubanas, Raznas
 
