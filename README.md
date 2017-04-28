@@ -3,3 +3,4 @@ Here is repository with only one file. The scope of it is illustrate a git featu
 
 
 Approved baseline for starting of development ;)
+Changes made by Johan
