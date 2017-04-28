@@ -4,8 +4,8 @@ Here is repository with only one file. The scope of it is illustrate a git featu
 
 Approved baseline for starting of development ;)
 
-Changes by Peter:
-	Universities of Latvia: RTU, LU
-	Rivers of Latvia: Daugava, Gauja
-	Lakes of Latvia: Lubanas, Raznas
+Changes by Peter and Max:
+	Universities of Latvia: RTU, LU, RSU
+	Rivers of Latvia: Daugava, Gauja, Venta
 
+Changes made by Johan
