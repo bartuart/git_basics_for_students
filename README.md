@@ -3,3 +3,7 @@ Here is repository with only one file. The scope of it is illustrate a git featu
 
 
 Approved baseline for starting of development ;)
+
+Changes By Max:
+	Universities of Latvia: RSU
+	Rivers of Latvia: Venta
