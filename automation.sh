@@ -17,6 +17,11 @@ mkdir temp
 cd temp
 #SVN command line tool
 svn checkout http://subversion.alise.lv/CMTOOLS/Delivery_Documentation/trunk/DeliveryDocumentationGeneratorssss --username ${svn_user} --password ${svn_password} >>/dev/null
+if [ $? -ne 0 ]; then
+	echo "[BUILD_SCRIPT] Error during checking out source code from SVN repository!"
+	echo "[BUILD_SCRIPT] The command was: svn checkout http://subversion.alise.lv/CMTOOLS/Delivery_Documentation/trunk/DeliveryDocumentationGeneratorssss --username ${svn_user} --password ${svn_password}"
+	exit 1
+fi
 
 echo "[BUILD_SCRIPT] Building JAR from source code using ANT script..."
 cd DeliveryDocumentationGenerator
