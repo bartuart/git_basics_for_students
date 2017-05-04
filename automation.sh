@@ -19,7 +19,7 @@ cd temp
 svn checkout http://subversion.alise.lv/CMTOOLS/Delivery_Documentation/trunk/DeliveryDocumentationGenerator --username ${svn_user} --password ${svn_password} >>/dev/null
 if [ $? -ne 0 ]; then
 	echo "[BUILD_SCRIPT] Error during checking out source code from SVN repository!"
-	echo "[BUILD_SCRIPT] The command was: svn checkout http://subversion.alise.lv/CMTOOLS/Delivery_Documentation/trunk/DeliveryDocumentationGeneratorssss --username ${svn_user} --password ${svn_password}"
+	echo "[BUILD_SCRIPT] The command was: svn checkout http://subversion.alise.lv/CMTOOLS/Delivery_Documentation/trunk/DeliveryDocumentationGenerator --username ${svn_user} --password ${svn_password}"
 	exit 1
 fi
 
