@@ -16,7 +16,7 @@ cd ${BUILD_DIR}
 mkdir temp
 cd temp
 #SVN command line tool
-svn checkout http://subversion.alise.lv/CMTOOLS/Delivery_Documentation/trunk/DeliveryDocumentationGenerator --username ${svn_user} --password ${svn_password} >>/dev/null
+svn checkout http://subversion.alise.lv/CMTOOLS/Delivery_Documentation/trunk/DeliveryDocumentationGeneratorssss --username ${svn_user} --password ${svn_password} >>/dev/null
 
 echo "[BUILD_SCRIPT] Building JAR from source code using ANT script..."
 cd DeliveryDocumentationGenerator
