@@ -31,4 +31,6 @@ echo "${NOTES_FOR_RUN}" >> Installation_guide.txt
 
 cd ..
 
+zip -9 -r ${BUILD_DIR}.zip ${BUILD_DIR}
+
 exit 0
