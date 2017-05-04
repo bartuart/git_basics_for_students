@@ -3,9 +3,7 @@
 echo "Automation script"
 
 export JIRA_TICKETS="Ticket-1 Ticket-2"
-
 export NOTES_FOR_RUN="Please go to Docgenerator directory and execute: java -jar DocGenerator.jar <parameters>"
-
 export BUILD_DIR=`date '+%Y-%m-%d_%H-%M-%S'`
 
 mkdir ${BUILD_DIR}
