@@ -11,10 +11,14 @@ mkdir ${BUILD_DIR}
 cd ${BUILD_DIR}
 mkdir temp
 cd temp
-svn checkout http://subversion.alise.lv/CMTOOLS/Delivery_Documentation/trunk/DeliveryDocumentationGenerator --username ${svn_user} --password ${svn_password}
+svn checkout http://subversion.alise.lv/CMTOOLS/Delivery_Documentation/trunk/DeliveryDocumentationGenerator --username ${svn_user} --password ${svn_password} >>/dev/null
 
 cd DeliveryDocumentationGenerator
-ant jar
+ant jar >ant_output
+cat ant_output | grep "BUILD SUCCESSFUL"
+if [ $? -ne 0 ]; then
+	exit 1
+fi
 
 cp build/DocGenerator.jar ../../
 cd ../../
